@@ -1,0 +1,130 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search {
+  width: 260px;
+  background-color: white;
+  height: 40px;
+  margin-bottom: -10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+input[type='text'] {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  width: 230px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+div ::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 21px;
+  color: #545860;
+  padding-left: 10px;
+}
+
+.search button img {
+  height: 20px;
+  width: 20px;
+}
+
+div .github {
+  margin-top: -120px;
+  height: 50%;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.search button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  background-color: white;
+  border-radius: 8px;
+  width: 260px;
+  height: 310px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+div .Head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+div .Head h2 {
+  margin-left: 10px;
+}
+
+ul span img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+  border-bottom: 0.2px solid #dee4e9;
+}
+
+p {
+  font-weight: 500;
+}
+
+small {
+  color: #333333;
+}
+
+.favoritar {
+  height: 35px;
+  width: 230px;
+  align-items: center;
+  margin: 0px 5px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #4ec494;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.favoritar:hover {
+  color: white;
+  background-color: #4ec494;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+

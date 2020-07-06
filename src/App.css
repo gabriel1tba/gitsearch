@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6f6;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+body,
+input,
+button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
