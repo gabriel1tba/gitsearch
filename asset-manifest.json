@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gitsearch/static/css/main.65e7a17c.chunk.css",
+    "main.js": "/gitsearch/static/js/main.f9ca195b.chunk.js",
+    "main.js.map": "/gitsearch/static/js/main.f9ca195b.chunk.js.map",
+    "runtime-main.js": "/gitsearch/static/js/runtime-main.c24412f1.js",
+    "runtime-main.js.map": "/gitsearch/static/js/runtime-main.c24412f1.js.map",
+    "static/js/2.f1ad1b6e.chunk.js": "/gitsearch/static/js/2.f1ad1b6e.chunk.js",
+    "static/js/2.f1ad1b6e.chunk.js.map": "/gitsearch/static/js/2.f1ad1b6e.chunk.js.map",
+    "index.html": "/gitsearch/index.html",
+    "precache-manifest.d973a8aac2e25a8c679a9e6e03b83156.js": "/gitsearch/precache-manifest.d973a8aac2e25a8c679a9e6e03b83156.js",
+    "service-worker.js": "/gitsearch/service-worker.js",
+    "static/css/main.65e7a17c.chunk.css.map": "/gitsearch/static/css/main.65e7a17c.chunk.css.map",
+    "static/js/2.f1ad1b6e.chunk.js.LICENSE.txt": "/gitsearch/static/js/2.f1ad1b6e.chunk.js.LICENSE.txt",
+    "static/media/Github.png": "/gitsearch/static/media/Github.e06e4c14.png",
+    "static/media/Search.svg": "/gitsearch/static/media/Search.29d553f3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c24412f1.js",
+    "static/js/2.f1ad1b6e.chunk.js",
+    "static/css/main.65e7a17c.chunk.css",
+    "static/js/main.f9ca195b.chunk.js"
+  ]
+}
