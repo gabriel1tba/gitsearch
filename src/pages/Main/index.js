@@ -13,16 +13,12 @@ function Main() {
 
   async function fetchMyAPI() {
     const { data } = await api.get(`${nameRef.current.value}`);
-
-    setUsers([...users, data]);
+    setUsers([ data]);
   }
 
-  const fav = document.getElementsByClassName('favoritar');
-  console.log(fav);
-
-  const desfav = document.getElementsByClassName('cards');
-  console.log(desfav);
-
+  //const fav = document.getElementsByClassName('favoritar');
+  //const desfav = document.getElementsByClassName('cards');
+  
   useEffect(() => {}, [users]);
 
   return (
@@ -40,7 +36,7 @@ function Main() {
       </span>
 
       <div className="cards">
-        {users.map((user) => (
+        {users && users.map((user) => (
           <ul key={user.id}>
             <span className="Head">
               <img src={user.avatar_url} alt="" />
