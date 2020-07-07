@@ -12,16 +12,13 @@ function Main() {
   const nameRef = useRef();
 
   async function fetchMyAPI() {
-    const { data } = await api.get(`${nameRef.current.value}`);
-
-    setUsers([...users, data]);
+    try {
+      const { data } = await api.get(`${nameRef.current.value}`);
+      setUsers([...users, data]);
+    } catch (err) {
+      alert('Por favor, digite a informação corretamente!')
+    }
   }
-
-  const fav = document.getElementsByClassName('favoritar');
-  console.log(fav);
-
-  const desfav = document.getElementsByClassName('cards');
-  console.log(desfav);
 
   useEffect(() => {}, [users]);
 
