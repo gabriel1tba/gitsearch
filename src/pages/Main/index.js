@@ -13,6 +13,7 @@ function Main() {
   const nameRef = useRef();
 
   async function fetchMyAPI() {
+
     setHasUsers(true);
     api.get(`${nameRef.current.value}`)
       .then(response => {
@@ -24,8 +25,6 @@ function Main() {
       });
   }
 
-  //const fav = document.getElementsByClassName('favoritar');
-  //const desfav = document.getElementsByClassName('cards');
 
   useEffect(() => { }, [users]);
 
