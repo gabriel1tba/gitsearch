@@ -2,9 +2,9 @@
 
 
 
-## Preview
+## Pré-visualização
 
-![alt text](https://i.imgur.com/Xh6hAuR.gif)
+![alt text](https://i.imgur.com/jndwEEF.gif)
 
 
 
