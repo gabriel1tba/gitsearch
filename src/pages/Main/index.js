@@ -16,7 +16,7 @@ function Main() {
       const { data } = await api.get(`${nameRef.current.value}`);
       setUsers([...users, data]);
     } catch (err) {
-      alert('Por favor, digite a informação corretamente!')
+      alert('Usuário ou organização não foi encontrado!')
     }
   }
 
