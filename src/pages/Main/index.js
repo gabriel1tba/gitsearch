@@ -3,23 +3,31 @@ import api from '../../services/api';
 
 import Search from '../../assets/Search.svg';
 import Github from '../../assets/Github.png';
+import SadFace from '../../assets/Sad.svg';
 
 import './styles.css';
 
 function Main() {
   const [users, setUsers] = useState([]);
-
+  const [hasUsers, setHasUsers] = useState(true);
   const nameRef = useRef();
 
   async function fetchMyAPI() {
-    const { data } = await api.get(`${nameRef.current.value}`);
-    setUsers([ data]);
+    setHasUsers(true);
+    api.get(`${nameRef.current.value}`)
+      .then(response => {
+        const { data } = response;
+        setUsers([data]);
+      })
+      .catch(err => {
+        if (err.response.status == 404) { setHasUsers(false) }
+      });
   }
 
   //const fav = document.getElementsByClassName('favoritar');
   //const desfav = document.getElementsByClassName('cards');
-  
-  useEffect(() => {}, [users]);
+
+  useEffect(() => { }, [users]);
 
   return (
     <div>
@@ -36,7 +44,7 @@ function Main() {
       </span>
 
       <div className="cards">
-        {users && users.map((user) => (
+        {hasUsers ? users.map((user) => (
           <ul key={user.id}>
             <span className="Head">
               <img src={user.avatar_url} alt="" />
@@ -65,7 +73,13 @@ function Main() {
               <button className="favoritar">Exibir no Github</button>
             </a>
           </ul>
-        ))}
+        ))
+          :
+          <div className={"not-found"}>
+            <p>Organização não encontrada!</p>
+            <img src={SadFace}></img>
+          </div>
+        }
       </div>
     </div>
   );
