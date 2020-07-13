@@ -26,7 +26,7 @@ Possibilidade de visualização no github.
 ## Informações finais
 Projeto feito em React;
 
-Para usar, usando o terminal, clone esse repositório em uma pasta com o comando:
+Para iniciar, usando o terminal, clone esse repositório em uma pasta com o comando:
 ```bash
 git clone https://github.com/bielJS/gitsearch.git
 ```
