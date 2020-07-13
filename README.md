@@ -32,6 +32,6 @@ git clone https://github.com/bielJS/gitsearch.git
 ```
 Então rode o seguinte comando para executar o projeto:
 ```bash
-yarnouyarn install
+yarn ou yarn install
 ```
 
