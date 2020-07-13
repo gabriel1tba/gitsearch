@@ -23,8 +23,15 @@ Possibilidade de visualização no github.
 
 
 
+## Informações finais
+Projeto feito em React;
 
-
-## Sobre o projeto
-Projeto feito em React.
+Para usar, usando o terminal, clone esse repositório em uma pasta com o comando:
+```bash
+git clone https://github.com/bielJS/gitsearch.git
+```
+Então rode o seguinte comando para executar o projeto:
+```bash
+yarnouyarn install
+```
 
