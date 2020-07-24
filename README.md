@@ -30,7 +30,7 @@ Para iniciar, usando o terminal, clone esse repositório em uma pasta com o coma
 ```bash
 git clone https://github.com/bielJS/gitsearch.git
 ```
-Então rode o seguinte comando para executar o projeto:
+Instalando as dependências:
 ```bash
 yarn ou yarn install
 ```
