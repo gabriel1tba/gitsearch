@@ -35,3 +35,8 @@ Então rode o seguinte comando para executar o projeto:
 yarn ou yarn install
 ```
 
+Para iniciar digite no terminal:
+```bash
+yarn start
+```
+
