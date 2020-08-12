@@ -1,5 +1,8 @@
 # GitSearch
 
+## Objetivo do projeto
+Consultar informações de usuários e organizações utilizando a API pública do Github.
+
 
 
 ## Pré-visualização
@@ -8,9 +11,10 @@
 
 
 
+## Features
 
-## Objetivo do projeto
-Consultar informações de usuários e organizações utilizando a API pública do Github.
+- **react** — Biblioteca JavaScript usada para criar interfaces
+- **axios** — Biblioteca JavaScript para fazer requests a API
 
 
 
